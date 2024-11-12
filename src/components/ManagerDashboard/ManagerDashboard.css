@@ -1,0 +1,48 @@
+
+.heading-text{
+    font-size: 2rem;
+    color: blue;
+    font-weight: bold;
+
+}
+.manager-dashboard-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.filter-section label {
+    font-weight: bold;
+}
+
+.task-section {
+    margin-top: 30px;
+}
+
+.create-user-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border-radius: 3px;
+}

@@ -1,0 +1,66 @@
+.admin-dashboard-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.user-management,
+.task-management {
+  margin-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.create-user-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.management-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.management-table th {
+  background-color: #0073e6;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.management-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
